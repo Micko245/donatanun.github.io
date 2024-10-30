@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>donat anun</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.js">
+
+    <!-- Link RemixIcon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav>
+        <div class="nav-logo">donat anun<span>.</span></div>
+        <ul class="nav-links">
+            <li class="link"><a href="#beranda">Beranda</a></li>
+            <li class="link"><a href="#fasilitas">menu</a></li>
+            <li class="link"><a href="#pemesanan">Pemesanan</a></li>
+            <li class="link"><a href="#gallary">Ulasan</a></li>
+        </ul>
+        <button class="btn"><a href="#footer" style="color: #f0e0e0; text-decoration: none">Hubungi Kami</a></button>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Beranda -->
+    <header id="beranda">
+        <div class="section-container header-container">
+            <div class="header-image">
+                <img src="donat/donat 1.jfif" alt="header" />
+                <img src="donat/donat 2.jpg" alt="header" />
+            </div>
+            <div class="header-content">
+                <div>
+                    <!-- <p class="sub-header">Pesan Sekarang</p> -->
+                    <h1>Selamat Datang di donat anun</h1>
+                    <p class="section-subtitle">silahkan dinikmati donat yang ter enak di dunia buatan anun</p>
+                    <div class="action-btns">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Beranda -->
+
+    <!-- Fasilitas -->
+    <section class="section-container fasilitas-container" id="fasilitas">
+        <div class="section-header">
+            <div>
+                <h2 class="section-title">silahkan di lihat menunya</h2>
+                <p class="section-subtitle">
+                    disini kami menyediakan beberapa menu donat mulai dari coklat, vanila, dan gula pasir
+                </p>
+            </div>
+        </div>
+        <div class="fasilitas-grid">
+            <div class="fasilitas-card">
+                <img src="donat/donat coklat.jpg" alt="destination" />
+                <div class="fasilitas-details">
+                    <p class="fasilitas-title">rasa coklat</p>
+                </div>
+            </div>
+            <div class="fasilitas-card">
+                <img src="donat/donar vanila.jpg" alt="destination" />
+                <div class="fasilitas-details">
+                    <p class="fasilitas-title">rasa vanila</p>
+                </div>
+            </div>
+            <div class="fasilitas-card">
+                <img src="donat/donat gula.jpeg" alt="destination" />
+                <div class="fasilitas-details">
+                    <p class="fasilitas-title">rasa gula</p>
+                </div>
+
+
+            </div>
+    </section>
+    <!-- End Fasilitas -->
+
+    <!-- Pemesanan -->
+    <section class="pemesanan" id="pemesanan">
+        <div class="section-container pemesanan-container">
+            <h2 class="section-title">Paket hemat</h2>
+            <p class="section-subtitle">Kami memiliki beberapa paket hemat termurah untuk anda coba</p>
+            <div class="pemesanan-grid">
+                <div class="pemesanan-card">
+                    <img src="donat/donat coklat.jpg" alt="" />
+                    <div class="pemesanan-details">
+                        <p>beli 2 gratis 1</p>
+                        <p class="deskripsi">jika anda membeli 2 buah donat bebas rasa apa saja maka 
+                            anda bisa bebas memilih 1 gratis
+                        </p>
+                        <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
+                        <div class="booking-price">
+                            <div class="price"><span>Mulai</span> IDR 20.000</div>
+                            <!-- <a href="pemesanan.php" class="book-now">Pesan Sekarang</a> -->
+                            <button class="book-now" onclick="window.location.href='pemesanan.php'">Pesan
+                                Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pemesanan-card">
+                    <img src="donat/donar vanila.jpg" alt="" />
+                    <div class="pemesanan-details">
+                        <p>makan di tempat</p>
+                        <p class="deskripsi">jika anda makan di tempat langsung akan mendapatkan potongan harga sebesar
+                            5.0000 rupiah
+                        </p>
+                        <div class="rating"><i class="ri-star-fill"></i> 4.1</div>
+                        <div class="booking-price">
+                            <div class="price"><span>Mulai</span> IDR 15.000</div>
+                            <button class="book-now" onclick="window.location.href='pemesanan.php'">Pesan
+                                Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pemesanan-card">
+                    <img src="donat/paket keluarga.jpg" alt="" />
+                    <div class="pemesanan-details">
+                        <p>paket keluarga</p>
+                        <p class="deskripsi">jika anda ingin makan bersama keluarga anda, anda bisa memesan
+                            disini untuk mendapatkan harga yang lebih hemat dengan 10 donat
+                        </p>
+                        <div class="rating"><i class="ri-star-fill"></i> 4.6</div>
+                        <div class="booking-price">
+                            <div class="price"><span>Mulai</span> IDR 70.000</div>
+                            <button class="book-now" onclick="window.location.href='pemesanan.php'">Pesan
+                                Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Pemesanan -->
+
+
+    <!-- Subscribe -->
+    <section class="subscribe">
+        <div class="section-container subscribe-container">
+            <div class="subscribe-content">
+                <h2 class="section-title">Berlangganan untuk mendapatkan informasi</h2>
+                <p class="section-subtitle">rasakan ke enakan donat anun yang ter enak di dunia, anda minimal harus
+                    meresakan sekali se umur hdup anda
+                </p>
+            </div>
+            <div class="subscribe-form">
+                <form>
+                    <input type="email" placeholder="Email Anda" />
+                    <button class="btn" type="submit">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Subscribe -->
+
+
+
+    <script src="style.js"></script>
+</body>
+
+</html>
